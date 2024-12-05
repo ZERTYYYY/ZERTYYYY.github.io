@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Silkscreen&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css" id="theme-link">
+  </head>
+
+  <body>
+    
+    <!-- Vidéo en arrière-plan -->
+    <video autoplay muted loop id="background-video" hidden>
+      <source src="img/background_index.mp4" type="video/mp4" id="background-d">
+      Votre navigateur ne supporte pas les vidéos HTML5.
+    </video>
+
+    <video autoplay muted loop id="background-video1" hidden> 
+      <source src="img/background_clair.mp4" type="video/mp4">
+      Votre navigateur ne supporte pas les vidéos HTML5.
+    </video>
+    
+
+    <!-- Barre de navigation -->
+    <div class="progress_container">
+      <div class="progress_bar"></div>
+    </div>
+    
+    <section class="top-nav">
+
+      <input id="menu-toggle" type="checkbox" />
+      <label class="menu-button-container" for="menu-toggle">
+        <div class="menu-button"></div>
+      </label>
+
+      <ul class="menu">
+        <li><a href="index.html">Accueil</a></li>
+        <li><a href="html/partenaires.html">Partenaire</a></li>
+        <li><a href="html/contact.html">Contact</a></li>
+        <li><a href="/php/recherche.php">Recherche</a></li>
+        <li><a href="html/api_actu.php">Actue</a></li>
+      </ul>
+      <a href="https://guardia.school/campus/lyon.html?utm_term=&utm_campaign=PMX+GU+-+Etudiants&utm_source=adwords&utm_medium=ppc&hsa_acc=1749547295&hsa_cam=20907422767&hsa_grp=&hsa_ad=&hsa_src=x&hsa_tgt=&hsa_kw=&hsa_mt=&hsa_net=adwords&hsa_ver=3&gad_source=1&gclid=Cj0KCQiA0fu5BhDQARIsAMXUBOLF5lQxduMnrC_3qKBJVAWHTUJK-DNhqhYN9tiGD5igEzrigsmo3pAaAjjzEALw_wcB">
+        <img src="img/guardiagif.gif" alt="Logo" class="logo" href="test.html">
+      </a>
+
+      <input class="inputswitch" type="checkbox" id="darkmode-toggle">
+      <label class="switch" for="darkmode-toggle"></label>
+      <div class="backswitch"></div>
+    </section>
+    <!-- Titre principal -->
+    <header>
+      <h1 id="dynamic-text">Bienvenue sur le portfolio</h1>
+    </header>
+
+    <!-- Section des bulles -->
+    <div class="container">
+      <div class="images">
+        <div class="image-bubble" id="jassym">
+          <a href="html/jassym.php">
+            <div class="image-container">
+            <img src="img/Image1.png" alt="Jassym">
+            <div class="overlay">Jassym Ferah</div>
+            </div>
+          </a>
+          
+        </div>
+        <div class="image-bubble" id="emile">
+          <a href="html/emile.php">
+            <div class="image-container">
+            <img src="img/Image2.jpg" alt="Emile">
+            <div class="overlay">Emile Chameau</div>
+          </div>
+          </a>
+        </div>
+        <div class="image-bubble" id="emeric">
+          <a href="html/emeric.php">
+            <div class="image-container">
+            <img src="img/Image4.jpg" alt="Emeric">
+            <div class="overlay">Emeric Goris</div>
+            </div>
+          </a>
+        </div>
+        <div class="image-bubble" id="ilyas">
+          <a href="html/Ilyass.php">
+            <div class="image-container">
+            <img src="img/image3.jpg" alt="Ilyas">
+            <div class="overlay">Ilyas Boinahery</div>
+            </div>
+          </a>
+        </div>
+        <div class="image-bubble" id="dimitri">
+          <a href="html/dimitri.php">
+            <div class="image-container">
+            <img src="img/image5.png" alt="Dimitri">
+            <div class="overlay">Dimitri Bacot</div>
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Section Biographie et Compétences -->
+    <div class="bio-and-skills">
+      <div></div>
+      <!-- Section Biographie -->
+      <div class="biography">
+        <h2>Biographie</h2>
+        <p>
+          nous sommes, passionné par l'innovation et le travail en équipe. 
+          Avec une expertise en gestion de projet et une volonté constante d'apprendre, 
+          je m'efforce de contribuer à des projets ambitieux et collaboratifs. 
+          Mon objectif est de développer des solutions créatives qui marquent une différence.
+        </p>
+      </div>
+
+      <!-- Section Compétences -->
+      <div class="skills">
+        <h2>Compétences</h2>
+        <div class="skill">
+          <p>Travail en équipe</p>
+          <div class="skill-bar">
+            <div class="skill-fill" style="width: 85%;"></div>
+          </div>
+        </div>
+        <div class="skill">
+          <p>Gestion de projet</p>
+          <div class="skill-bar">
+            <div class="skill-fill" style="width: 90%;"></div>
+          </div>
+        </div>
+        <div class="skill">
+          <p>Créativité</p>
+          <div class="skill-bar">
+            <div class="skill-fill" style="width: 75%;"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Texte sur la cohésion d'équipe -->
+    <section class="team-cohesion">
+      <h2>🌟 Cohésion d'équipe 🌟</h2>
+      <p>La force de notre équipe réside dans l'unité, la collaboration et la passion commune pour l'innovation. Ensemble, nous surmontons les défis et créons des projets uniques 🚀🤝. C'est la cohésion qui fait notre succès ! 💡🎉</p>
+    </section>
+
+    <!-- Stages et Alternance -->
+    <div class="container alternance-section">
+      <p class="title">Projet de <span class="highlight">Groupe !</span></p>
+      <div class="grid">
+          <div class="card">
+              <h3>1<sup>ère</sup> semaine</h3>
+              <p>Developpement squeletic</p>
+              <span class="badge">1</span>
+          </div>
+          <div class="card">
+              <h3>2<susp>ème</susp> semaine</h3>
+              <p>Style css</p>
+              <span class="badge">2</span>
+          </div>
+          <div class="card">
+              <h3>3<sup>ème</sup> semaine</h3>
+              <p>Incorporation de Back-end</p>
+              <span class="badge">3</span>
+          </div>
+      </div>
+    </div>
+
+    <!-- Curseur personnalisé -->
+    <div id="custom-cursor"></div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-dyIXitRyUtaXaWtdcLMKZJkrmJlYcZHF/mQB07RaUrfL1YYslELfU1EycsU6Rpm4" crossorigin="anonymous"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>
